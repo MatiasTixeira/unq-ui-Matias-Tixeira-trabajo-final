@@ -1,6 +1,6 @@
 # Piedra, Papel, Tijera, Lagarto o Spock
 
-![image](![image](https://github.com/MatiasTixeira/unq-ui-Matias-Tixeira-trabajo-final/assets/71102765/fd88f309-834f-4b1c-b742-69e13f68ce91))
+[![image](https://github.com/MatiasTixeira/unq-ui-Matias-Tixeira-trabajo-final/assets/71102765/fd88f309-834f-4b1c-b742-69e13f68ce91))](https://static.wikia.nocookie.net/thebigbangtheory/images/c/cc/600px-Pierre_ciseaux_feuille_l%C3%A9zard_spock_aligned.svg.png/revision/latest?cb=20131215025302&path-prefix=es)
 
 ## Instalacion del proyecto 
 
