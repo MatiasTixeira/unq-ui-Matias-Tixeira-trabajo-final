@@ -1,0 +1,45 @@
+.imagenPrincipal{
+    height: 100% 
+}
+
+.imagenGanador{
+    height: 150px;
+}
+
+.botonJugador {
+  padding: 15px 25px;
+  font-size: 22px;
+  text-align: center;	
+  background-color: #008CBA;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+
+.botonJugador:active {
+    background-color: #3e8e41;
+    transform: translateY(6px);
+  }
+
+.botonJugador:hover {
+    background-color: #3e8e41
+}
+
+.botonJugar {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;	
+    background-color: #f44336;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+  }
+  
+  .botonJugar:active {
+      background-color: #AD1F30;
+      transform: translateY(6px);
+    }
+  
+  .botonJugar:hover {
+      background-color: #AD1F30
+  }
