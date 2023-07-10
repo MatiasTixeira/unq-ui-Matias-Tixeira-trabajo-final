@@ -1,6 +1,6 @@
 # Piedra, Papel, Tijera, Lagarto o Spock
 
-![image](https://github.com/MatiasTixeira/unq-ui-Matias-Tixeira-trabajo-final/assets/71102765/d284d314-be7a-4e8d-8904-738bac2edc09)
+![image](![image](https://github.com/MatiasTixeira/unq-ui-Matias-Tixeira-trabajo-final/assets/71102765/fd88f309-834f-4b1c-b742-69e13f68ce91))
 
 ## Instalacion del proyecto 
 
