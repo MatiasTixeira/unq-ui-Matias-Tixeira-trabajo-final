@@ -1,7 +1,29 @@
 import React from 'react';
-import 'partida.css'
+import 'Partida.css';
+import { useContext } from 'react';
+import { PPTLSContext } from '../context/partida/PPTLSContext';
+import AlertaGanador from './Alertas/AlertaGanador';
+import AlertaPerdedor from './Alertas/AlertaPerdedor';
+import AlertaEmpate from './Alertas/AlertaEmpate';
 
-function partida() {
+function Partida() {
+
+    const {actions} = useContext(PPTLSContext);
+
+    const  elegirOpcion = (opcion) => {
+        actions.eleccionDelJugador(opcion)
+    }
+
+    const empezarPartida = () => {
+        let resultado = actions.verQuienGano()
+        if ( resultado === "ganaste"){
+            <AlertaGanador />
+        } else if ( resultado === "perdiste"){
+            <AlertaPerdedor />
+        } else {
+            <AlertaEmpate />
+        }
+    }
 
     return(
         <div>
@@ -9,16 +31,16 @@ function partida() {
                 <img src={require('../src/Assets/logo.jpg')} alt="Mi imagen" className='imagenPrincipal' />
             </div>
             <div>
-                <button  className='botonJugador'>Piedra</button>
-                <button  className='botonJugador'>Papel</button>
-                <button  className='botonJugador'>tijera</button>
-                <button  className='botonJugador'>Lagarto</button>
-                <button  className='botonJugador'>Spock</button>
-                <button  className='botonJugar'>Jugar!</button>
+                <button  onClick={elegirOpcion(0)} className='botonJugador'>Piedra</button>
+                <button  onClick={elegirOpcion(1)} className='botonJugador'>Papel</button>
+                <button  onClick={elegirOpcion(2)} className='botonJugador'>tijera</button>
+                <button  onClick={elegirOpcion(3)} className='botonJugador'>Lagarto</button>
+                <button  onClick={elegirOpcion(4)} className='botonJugador'>Spock</button>
+                <button  onClick={empezarPartida} className='botonJugar'>Jugar!</button>
             </div>
     </div>
-    )
+    );
 
 }
 
-export default partida;
+export default Partida;

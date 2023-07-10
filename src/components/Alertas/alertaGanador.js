@@ -7,7 +7,7 @@ function alertaGanador(){
     return(
         <div>
             <h1> Eres el ganador</h1>
-            <img src={require('../Assets/ganador.png')} alt="Mi imagen" className='imagenPrincipal' />
+            <img src={require('../../Assets/ganador.png')} alt="Mi imagen" className='imagenPrincipal' />
             
         </div>
     )

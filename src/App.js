@@ -1,8 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import {partida} from './components/partida';
 import {PPTLSCointext} from './context/partida/PPTLSContext';
 import React from 'react';
-
+import Partida from '../src/components/Partida';
 
 function App() {
 
@@ -10,7 +9,7 @@ function App() {
     <Router>
       <PPTLSCointext>
         <Switch>
-          <Route path="/home" Component={partida}/>
+          <Route path="/home" Component={Partida}/>
         </Switch>
       </PPTLSCointext>
     </Router>
